@@ -1,0 +1,117 @@
+body{
+    background-image: url(gg.jpg);
+   
+}
+.timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    border: 3px solid black;
+    font-weight: bolder;
+    font-size: 40px;
+    color: black;
+    margin-top: 20%;
+    border-radius: 10px;
+    background-color:white ;
+    
+}
+
+h4{
+    height: 2px;
+    color: black;
+    
+    margin: 30px;
+    margin-bottom: 60px;
+    
+    
+    /* display: none; */
+}
+
+h5{
+    color: white;
+    height: 1px;
+    margin: 30px;
+    animation: color 2s ease-in 0.3s infinite alternate;
+    display: none;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    /* border: 2px solid black; */
+    width: 190px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+
+.play{
+    background-color: green;
+    color: white;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.play:hover{
+    font-size: 16px;
+    
+}
+
+.play:focus{
+color: black;
+}
+
+.reset{
+    background-color: red;
+    color: white;
+    transition: 0.3s;
+    border-radius: 5px;
+
+
+}
+
+.reset:hover{
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+
+.reset:focus{
+    color: black;
+}
+
+.rese{
+    background-color: blue; 
+    color: white;
+    transition: 0.3s;
+    border-radius: 5px;
+
+
+}
+
+.rese:hover{
+
+    font-size: 16px;
+}
+.rese:focus{
+    color: black;
+}
+
+
+@keyframes color {
+    to{
+        color: black;
+    }
+}
+
+@media only screen and (max-width:525px) {
+    body{
+        background-image: url(m.jpg);
+    }
+    
+}
