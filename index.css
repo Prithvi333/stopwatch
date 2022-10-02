@@ -7,8 +7,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 500px;
     margin: auto;
     border: 3px solid black;
     font-weight: bolder;
@@ -17,6 +17,7 @@ body{
     margin-top: 20%;
     border-radius: 10px;
     background-color:white ;
+    background-image: url(yoga.png);
     
 }
 
@@ -102,10 +103,48 @@ color: black;
     color: black;
 }
 
+h3{
+    color: palevioletred;
+    animation: show 1s ease-in 0.3s infinite alternate;
+
+}
+
+img{
+    text-align: left;
+}
+
+.name{
+    text-align: center;
+    
+}
+
+.rotate{
+    
+    animation: swing 1s ease-in  infinite ;
+    
+}
+
+i{
+    cursor: pointer;
+    transition: .3s;
+}
+i:hover{
+     font-size: 18px;
+     color: green;
+}
+p{
+    font-size: 20px;
+}
 
 @keyframes color {
     to{
         color: black;
+    }
+}
+
+@keyframes show {
+    to{
+        color: orange;
     }
 }
 
@@ -120,5 +159,12 @@ color: black;
         background-color: orange;
     }
     
+    
+}
+
+@keyframes swing {
+    to{
+        transform: rotate(360deg);
+    }
     
 }
