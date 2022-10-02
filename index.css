@@ -148,14 +148,11 @@ p{
     }
 }
 
-@media only screen and (max-width:1080px) {
-    body{
-        background-image: url(k.png);
-       
-    }
+@media only screen and (max-width:300px) {
+   
     .timer{
-        width: 425px;
-        height: 700px;
+        width: 1080px;
+        height: 2400pxx;
         background-image: url(yoga.png);
     }
     
