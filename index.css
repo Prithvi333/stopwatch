@@ -18,6 +18,8 @@ body{
     border-radius: 10px;
     background-color:white ;
     background-image: url(yoga.png);
+    background-repeat: no-repeat;
+    text-align: center;
     
 }
 
