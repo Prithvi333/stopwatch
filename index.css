@@ -114,5 +114,8 @@ color: black;
         background-image: url(m2.jpg);
        
     }
+    .timer{
+        width: 300px;
+    }
     
 }
