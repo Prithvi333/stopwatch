@@ -150,7 +150,7 @@ p{
     }
 }
 
-@media only screen and (max-width:300px) {
+@media only screen and (max-width:500px) {
    
     .timer{
         width: 300px;
