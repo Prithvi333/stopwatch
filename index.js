@@ -61,7 +61,7 @@ else{
 pla.addEventListener('click',function(){
   
     if(timerStatus=="started"){
-        timerInterval= window.setInterval(stopWatch,10)
+        timerInterval= window.setInterval(stopWatch,1000)
         timerStatus="stopped"
 
     }
