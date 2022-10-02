@@ -109,7 +109,7 @@ color: black;
     }
 }
 
-@media only screen and (max-width:1080px) {
+@media only screen and (max-width:400px) {
     body{
         background-image: url(m2.jpg);
        
