@@ -151,9 +151,10 @@ p{
 @media only screen and (max-width:300px) {
    
     .timer{
-        width: 900px;
-        height: 2100pxx;
+        width: 700px;
+        height: 2000pxx;
         background-image: url(yoga.png);
+
     }
     
     
